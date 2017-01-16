@@ -1,0 +1,32 @@
+Homework-1
+file hw-1-12-2017
+
+Question #1:
+Starting from /User/amanda/data, which of the following commands could Amanda use to navigate to her home directory, which is /User/amanda?
+Answer:
+cd
+
+Question #2:
+Using the filesystem diagram below, if pwd display /User/thing, what will ls ../backup display?
+Answer:
+original pnas_final pnas_sub
+
+Question #3:
+Assuming a directory structure as in above Figure (File System or Challenge Questions), if pwd displays /Users/backup, and -r tells ls to display things in reverse order, what command will display?
+Answer:
+ls -r -F or ls -r -F /Users/backup
+Either ls -r -F or ls -r -F /Users/backup, but not ls pwd
+
+Question #4:
+What does command ls do when used with -l and -h arguments?
+Answer:
+ls with -l argument will show the list of all files with long listing format inside the directory
+ls with -h argument will show the list of all hunman readeble files only, inside the directory, without listing the other ones.
+
+Question #5:
+What order does ls -R -t display thing?
+Answer:
+the command displays the alphabetical list of directories, which have been or is usually opened or changed or modified recursively (-R) based on the time (-t).
+
+------ the end of hw-1-12-2017 -----
+
