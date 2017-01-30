@@ -1,0 +1,695 @@
+ 1254  ls
+ 1255  mkdir temp
+ 1256  ls
+ 1257  ls -la
+ 1258  cd ../
+ 1259  ls
+ 1260  cd data
+ 1261  ls
+ 1262  cd Saavedra2013
+ 1263  ls
+ 1264  echo $ n10.txt
+ 1265  cd
+ 1266  cd Desktop/eeb-177/CSB/unix/data
+ 1267  ls
+ 1268  cd Saavedra2013
+ 1269  ls
+ 1270  for filename in n10.txt
+ 1271  head -n 3 $n10.txt
+ 1272  head -n 3 n10.txt
+ 1273  less n10.txtx
+ 1274  less n10.txt
+ 1275  head -n 3 $n10.txt
+ 1276  head -n 3 $ n10.txt
+ 1277  head -n 3 n10.txt
+ 1278  ls
+ 1279  for filename in n10.txt; do    head -n 3 $filename; done
+ 1280  for filename in n10.txt; do   head -n 3 $filename; done
+ 1281  for filename in n10.txt; do head -n 3 $filename; done
+ 1282  ls
+ 1283  for filename in n10.txt n11.txt; do head -n 3 $filename; done
+ 1284  cd ..
+ 1285  ls
+ 1286* 
+ 1287  c
+ 1288  ls
+ 1289  cd Saavedra2013
+ 1290  ls
+ 1291  for filename in *.txt; do head -1 $filename; done
+ 1292  for filename in *.txt; do echo $filename; head -n 3 $filename | tail -n +2; done
+ 1293  for filename in *.txt; do echo ${edited}filename; head -n 3 $filename | tail -n +2; done
+ 1294  for filename in *.txt; do echo edited$filename; head -n 3 $filename | tail -n +2; done
+ 1295  for filename in *.txt; do echo edited-$filename; head -n 3 $filename | tail -n +2; done
+ 1296  ls
+ 1297  for filename in n10.txt; do cp $filename edited-$filename; done
+ 1298  ls
+ 1299  history ls
+ 1300  ls
+ 1301  rm edited-n10.txt
+ 1302  ls
+ 1303  cd ..
+ 1304  ls
+ 1305  cd ..
+ 1306  l
+ 1307  cd ..
+ 1308  ls
+ 1309  cd unix
+ 1310  ls
+ 1311  sandbox
+ 1312  cd sandbox
+ 1313  ls
+ 1314  cd..
+ 1315  cd ..
+ 1316  ls
+ 1317  cd data
+ 1318  ls
+ 1319  cd saavedra2013
+ 1320  cd Saavedra2013
+ 1321  ls
+ 1322  for filename *.txt
+ 1323  for filename in *.txt; do cp $filename edited-$filename; mv edited-$filename ../../sandbox/temp; done
+ 1324  ls
+ 1325  cd ..
+ 1326  ls
+ 1327  cd sandbox
+ 1328  ls
+ 1329  cd temp
+ 1330  ls
+ 1331  cd ../../../
+ 1332  cd ..
+ 1333  ls
+ 1334  home-work
+ 1335  cd home-work
+ 1336  ls
+ 1337  history
+ 1338  ls
+ 1339  cd home-work
+ 1340  cd homework2
+ 1341  ls
+ 1342  history 25 >> homework2.txt
+ 1343  git init
+ 1344  git add homework2.txt
+ 1345  git commit -m "recommit: append loop to homework2 file"
+ 1346  git push
+ 1347  cd ..
+ 1348  git init
+ 1349  git add homework2
+ 1350  git commit -m "recommit: append loop in homework2 txt file"
+ 1351  git push
+ 1352  cd ..
+ 1353  ls
+ 1354  cd CSB
+ 1355  ls
+ 1356  cd unix
+ 1357  ls
+ 1358  cd sandbox
+ 1359  ls
+ 1360  mv temp ../../../home-work
+ 1361  cd ../../../
+ 1362  cd home-work
+ 1363  ls
+ 1364  git add temp
+ 1365  git commit -m "recommit: adding temp directory as the assignment"
+ 1366  git push
+ 1367  history
+ 1368  history 115 > histHW2.txt
+ 1191  cd
+ 1192  gedit .bash_profile
+ 1193  ls -a
+ 1194  $PATH
+ 1195  cd scripts
+ 1196  ls
+ 1197  ls -a
+ 1198  ls -l
+ 1199  chmod u=rwx dir.sh
+ 1200  ls -l
+ 1201  cd
+ 1202  ls
+ 1203  cd Desktop
+ 1204  ls
+ 1205  cd eeb-177
+ 1206  ls
+ 1207  cd class-assignment
+ 1208  cd class-assignments
+ 1209  ls
+ 1210  cd
+ 1211  ls .a
+ 1212  ls -a
+ 1213  gedit .profile
+ 1214  sudo reboot
+ 1215  ls
+ 1216  cd Desktop
+ 1217  ls
+ 1218  cd eeb-177
+ 1219  ls
+ 1220  cd CSB
+ 1221  ls
+ 1222  cd unix
+ 1223  ls
+ 1224  cd data
+ 1225  ls
+ 1226  less Pacifici2013_data.csv
+ 1227  cd
+ 1228  gedit
+ 1229  ls
+ 1230  cd Desktop
+ 1231  ls
+ 1232  cd eeb-177
+ 1233  ls
+ 1234  cd class-assignments
+ 1235  ls
+ 1236  gedit
+ 1237  ls
+ 1238  ls -la
+ 1239  git init
+ 1240  git add classwork-Thurs-0121.txt
+ 1241  git commit -m "initial commit: adding classwork-Thurs-0121 file"
+ 1242  git push
+ 1243  ls
+ 1244  less classwork-Thurs-012617.txt
+ 1245  cd ../
+ 1246  ls
+ 1247  cd CSB
+ 1248  ls
+ 1249  cd unix
+ 1250  ls
+ 1251  cd data
+ 1252  ls
+ 1253  less Marra2014_data.fasta
+ 1254  ls
+ 1255  cd ../
+ 1256  ls
+ 1257  cd sandbox
+ 1258  ls
+ 1259  less toremove.txt
+ 1260  ls
+ 1261  rm toremove.txt
+ 1262  ls
+ 1263  ls *.txt
+ 1264  cd ../../
+ 1265  ls *.txt
+ 1266  ls
+ 1267  cd unix
+ 1268  ls
+ 1269  cd data
+ 1270  ls
+ 1271  less Marra2014_data.fasta
+ 1272  cat file1
+ 1273  less Marra2014_data.fasta
+ 1274  ls
+ 1275  less Marra2014_about.txt
+ 1276  less Buzzard2015_about.txt
+ 1277  cat Marra2014_about.txt Buzzard2015_about.txt
+ 1278  ls
+ 1279  wc -w Marra2014_about.txt
+ 1280  wc -l Marra2014_about.txt
+ 1281  wc -c Marra2014_about.txt
+ 1282  wc -m Marra2014_about.txt
+ 1283  wc -m -l Marra2014_about.txt
+ 1284  wc  Marra2014_about.txt
+ 1285  wc Marra2014_about.txt
+ 1286  wc -l -w -c Marra2014_about.txt
+ 1287  ls
+ 1288  less Gesquiere2011_data.csv
+ 1289  sort -k 2 Gesquiere2011_data.csv
+ 1290  ls
+ 1291  less Gesquiere2011_data.csv
+ 1292  sort -n 2 Gesquiere2011_data.csv
+ 1293  sort -n Gesquiere2011_data.csv
+ 1294  ls
+ 1295  sort -r Gesquiere2011_data.csv
+ 1296  ls
+ 1297  less Gesquiere2011_data.csv
+ 1298  sort -k Gesquiere2011_data.csv
+ 1299  sort -k1 Gesquiere2011_data.csv
+ 1300  man sort
+ 1301  less Gesquiere2011_data.csv
+ 1302  sort -n Gesquiere2011_data.csv
+ 1303  less Gesquiere2011_data.csv|head
+ 1304  sort -n Gesquiere2011_data.csv 
+ 1305  sort -n Gesquiere2011_data.csv | head
+ 1306  head Gesquiere2011_data.csv 
+ 1307  sort -k 2 Gesquiere2011_data.csv
+ 1308  ls
+ 1309  head Gesquiere2011_data.csv
+ 1310  tail -n5 Gesquiere2011_data.csv
+ 1311  tail -n1 Gesquiere2011_data.csv
+ 1312  head -n1 Gesquiere2011_data.csv
+ 1313  head -n2 Gesquiere2011_data.csv
+ 1314  man head
+ 1315  head -n -c Gesquiere2011_data.csv
+ 1316  head -n Gesquiere2011_data.csv
+ 1317  man head
+ 1318  head -c Gesquiere2011_data.csv
+ 1319  head -n2 -c Gesquiere2011_data.csv
+ 1320  head -c2 Gesquiere2011_data.csv
+ 1321  head -c2nGesquiere2011_data.csv
+ 1322  head -n2 Gesquiere2011_data.csv
+ 1323  head -c2 Gesquiere2011_data.csv
+ 1324  ls
+ 1325  cd Saavedra2013
+ 1326  ls
+ 1327  cd ../
+ 1328  echo "onny"
+ 1329  echo
+ 1330  less echo
+ 1331  echo onny
+ 1332  cd
+ 1333  cd Desktop/eeb-177/CSB/unix/data/
+ 1334  ls
+ 1335  cd Saavedra2013
+ 1336  ls
+ 1337  sort Saavedra2013
+ 1338  sort -n *.txt
+ 1339  sort -n .txt
+ 1340  ls
+ 1341  wc -l
+ 1342  ls ../data/Saavedra2013 | wc -l
+ 1343  cd ../
+ 1344  ls
+ 1345  ls ../data/Saavedra2013 | wc -l
+ 1346  ls
+ 1347  less Pacifici2013_data.csv
+ 1348  head Pacifici2013_data.csv
+ 1349  head -n1 Pacifici2013_data.csv
+ 1350  head -n1 Pacifici2013_data.csv | -d ";" -f 1-4
+ 1351  head -n1 Pacifici2013_data.csv | cut -d ";" -f 1-4
+ 1352  head -n1 Pacifici2013_data.csv | cut -d ";" -f 4
+ 1353  head -n1 Pacifici2013_data.csv | cut -d ";" -f 2 | head -n5 | tail -n+2
+ 1354  head -n1 Pacifici2013_data.csv | cut -d ";" -f 2 | head -n 5 | tail -n +2
+ 1355  ls
+ 1356  cut -d ";" -f 2 | head -n 5 | tail -n +2 Pacifici2013_data.csv
+ 1357  cut -d ";" -f 2 | head -n 5 | tail -n +2
+ 1358  ls
+ 1359  head -n1 Pacifici2013_data.csv | cut -d ";" -f 4
+ 1360  head -n1 Pacifici2013_data.csv
+ 1361  head -n1 Pacifici2013_data.csv | cut -d ";" -f 1-4
+ 1362  cut Pacifici2013_data.csv  -d ";" -f 2 | head -n 5 | tail -n +2
+ 1363  cut Pacifici2013_data.csv -d ";" -f 1-4 | head -n 5 | tail -n +2
+ 1364  cut Pacifici2013_data.csv -d ";" -f 1-4 | head -n 1 | tail -n +2
+ 1365  cut Pacifici2013_data.csv -d ";" -f 1-4 | head -n 1
+ 1366  cut Pacifici2013_data.csv -d ";" -f 1-4 | head -n 5 
+ 1367  cut Pacifici2013_data.csv -d ";" -f 1-4 | head -n 1 | tail -n 2
+ 1368  head -n1 Pacifici2013_data.csv | cut -d ";" -f 1-4
+ 1369  head -n1 Pacifici2013_data.csv
+ 1370  head Pacifici2013_data.csv
+ 1371  head -n1 Pacifici2013_data.csv
+ 1372  head -n1 Pacifici2013_data.csv | cut -d ";" -f 1-4
+ 1373  head -n1 Pacifici2013_data.csv | cut -d ";" -f 1
+ 1374  head -n2 Pacifici2013_data.csv | cut -d ";" -f 1-4
+ 1375  head -n5 Pacifici2013_data.csv | cut -d ";" -f 1-4
+ 1376  head -n5 Pacifici2013_data.csv | cut -d ";" -f 2
+ 1377  cut Pacifici2013_data.csv -d ";" -f2 | head -n5 
+ 1378  head -n5 Pacifici2013_data.csv | cut -d ";" -f 1-4
+ 1379  head -n5 Pacifici2013_data.csv | cut -d ";" -f 1-4 | tail -n +2
+ 1380  cut Pacifici2013_data.csv -d ";" -f2 | head -n5 | tail -n +2
+ 1381  head -n5 Pacifici2013_data.csv | cut -d ";" -f 1-4 | tail -n +2
+ 1382  cut Pacifici2013_data.csv -d ";" -f 1-4 | head -n5 | tail -n +2
+ 1383  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 1-4 | head -n 5
+ 1384  head -n 1 Pacifici2013_data.csv
+ 1385  head -n 5 Pacifici2013_data.csv | cut -d ";" -f 2 | tail -n +2
+ 1386  head -n 6 Pacifici2013_data.csv | cut -d ";" -f 2 | tail -n +2
+ 1387  man uniq
+ 1388  ls
+ 1389  uniq -c Gesquiere2011_data.csv
+ 1390  uniq -c Gesquiere2011_data.csv | wc -l
+ 1391  uniq -c Pacifici2013_data.csv
+ 1392  uniq -c Pacifici2013_data.csv | wc -l
+ 1393  head -n 1 Pacifici2013_data.csv
+ 1394  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | wc -l
+ 1395  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | wc -l
+ 1396  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | head -n
+ 1397  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3
+ 1398  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 | wc -l
+ 1399  less uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 | wc -l
+ 1400  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 | wc -l > list_of_uniq_fam.txt
+ 1401  ls
+ 1402  mv list_of_uniq_fam.txt ~/Desktop
+ 1403  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 >> list_of_uniq_fam.txt
+ 1404  cd
+ 1405  ls
+ 1406  cd Desktop
+ 1407  ls
+ 1408  rm list_of_uniq_fam.txt
+ 1409  ls
+ 1410  cd eeb-177/CSB/unix/data
+ 1411  ls
+ 1412  mv list_of_uniq_fam.txt ~/Desktop
+ 1413  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 | wc -l >> list_of_uniq_fam.txt
+ 1414  less list_of_uniq_fam.txt
+ 1415  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 | wc -l >> list_of_uniq_fam.txt
+ 1416  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 >> list_of_uniq_fam.txt
+ 1417  ls
+ 1418  mv list_of_uniq_fam.txt ~/Desktop
+ 1419  ls
+ 1420  head -n 1 Pacifici2013_data.csv
+ 1421  head -n 6 Pacifici2013_data.csv | cut -d ";" -f2 | tail -n +2
+ 1422  head -n 6 Pacifici2013_data.csv | cut -d ";" -f2 | tail -n +2 >> homework2.txt
+ 1423  ls
+ 1424  less homework2
+ 1425  less homework2.txt
+ 1426  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 | wc -l
+ 1427  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 | wc -l >> homework.txt
+ 1428  less homework.txt
+ 1429  gedit homework.txt
+ 1430  head -n 6 Pacifici2013_data.csv | cut -d ";" -f2 | tail -n +2 >> homework2.txt
+ 1431  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 | wc -l > homework.txt
+ 1432  less homework.txt
+ 1433  head -n 6 Pacifici2013_data.csv | cut -d ";" -f2 | tail -n +2 > homework2.txt
+ 1434  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 | wc -l >> homework.txt
+ 1435  ls
+ 1436  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | 
+ 1437  less homework2.txt
+ 1438  ls
+ 1439  less homework.txt
+ 1440  rm homework.txt
+ 1441  ls
+ 1442  tail -n +2 Pacifici2013_data.csv
+ 1443  ls
+ 1444  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ';' ' ' | sort -n -r -k 6
+ 1445  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ';' ' ' | sort -n -r -k 6 >> homework.txt
+ 1446  ls
+ 1447  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ';' ' ' | sort -n -r -k 6 >> homework2.txt
+ 1448  gedit homework2.txt
+ 1449  ls
+ 1450  gedit homework.txt
+ 1451  ls
+ 1452  rm homework.txt
+ 1453  ls
+ 1454  head -n 6 Pacifici2013_data.csv | cut -d ";" -f 1-5
+ 1455  head -n 6 Pacifici2013_data.csv | cut -d ";" -f 1-6
+ 1456  head -n 6 Pacifici2013_data.csv | cut -d ";" -f 1-5 | sort -k 6
+ 1457  head -n 6 Pacifici2013_data.csv | cut -d ";" -f 1-7 | sort -k 6
+ 1458  head -n 6 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -k 6
+ 1459  head -n 6 Pacifici2013_data.csv | cut -d ";" -f 1-6 
+ 1460  head -n Pacifici2013_data.csv | cut -d ";" -f 1-6 
+ 1461* cut -d ";" -f 1-6 
+ 1462* -d ";" -f 1-6 
+ 1463  cut -d ";" -f 1-6 Pacifici2013_data.csv
+ 1464  ls
+ 1465  cut -d ";" -f 1-6 Pacifici2013_data.csv | sort -r -k 6
+ 1466* cut -d ";" -f 1-6 Pacifici2013_data.csv | sort -r -k 6
+ 1467  ls
+ 1468  gedit test.cvs
+ 1469  ls
+ 1470  head -n 2 Pacifici2013_data.csv
+ 1471  ls
+ 1472  gedit test.cvs
+ 1473  head -n 1 Pacifici2013_data.csv | cut -d ";"
+ 1474  head -n 15 Pacifici2013_data.csv | cut -d ";" -f 1-6 
+ 1475  head -n Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -k 6
+ 1476  head -15 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -k 6
+ 1477  head -15 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -r
+ 1478  head -15 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -r 6
+ 1479  head -15 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -r -k 6
+ 1480  head -15 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -r -k 2
+ 1481  head -15 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -r -k 1
+ 1482  head -7 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -r -k 1
+ 1483  head -7 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -r -k 2
+ 1484  head -7 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -r -k 6
+ 1485  head -7 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -k 6
+ 1486  head -7 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -r -k 1
+ 1487  head -7 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -k 1
+ 1488  cut Pacifici2013_data.csv -d ";" -f 5-6 | sort -k 6
+ 1489  cut Pacifici2013_data.csv -d ";" -f 5-6 | sort -r -k 6
+ 1490  echo "test"
+ 1491  head -7 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -n -k 6
+ 1492  head -7 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -k 6
+ 1493  cut Pacifici2013_data.csv -d ";" -f 5-6 | sort -n -r -k 6
+ 1494  cut Pacifici2013_data.csv -d ";" -f 5-6 | sort -n -k 6
+ 1495  cut Pacifici2013_data.csv -d ";" -f 5-6 | tr -s ';' ' ' | sort -n -r -k 6
+ 1496  sort -n -r -k 6 Pacifici2013_data.csv | cut -d ";" -f 5-6 | tr -s ';' ' '
+ 1497  cut Pacifici2013_data.csv -d ";" -f 5-6 | tr -s ';' ' ' | sort -n -r -k 6
+ 1498  sort -n -r -k 6 Pacifici2013_data.csv | cut -d ";" -f 5-6 | tr -s ';' ' '
+ 1499  cut Pacifici2013_data.csv -d ";" -f 5-6 | tr -s ';' ' ' | sort -n -r -k 6
+ 1500  cut Pacifici2013_data.csv -d ";" -f 5-6 | tr -s ';' ' ' | sort -n -k 6
+ 1501  head -7 Pacifici2013_data.csv | cut -d ";" -f 1-6 | sort -n -k 6
+ 1502  cut -d ";" -f 1-6 cut Pacifici2013_data.csv | sort -n -k 6
+ 1503  cut -d ";" -f 1-6 cut Pacifici2013_data.csv | sort -k 6
+ 1504  cut Pacifici2013_data.csv -d ";" -f 5-6 | tr -s ';' ' ' | sort -n -k 6
+ 1505  cut Pacifici2013_data.csv -d ";" -f 5-6 | tr -s ';' ' ' | sort -n -r -k 6
+ 1506  echo "the 10th largest is Abrocoma uspallata" >> homework2.txt
+ 1507  cut Pacifici2013_data.csv -d ";" -f 5-6 | tr -s ';' ' ' | sort -n -k 6
+ 1508  echo "the 10th smallest is Zenkerella insignis" >> homework2.txt
+ 1509  gedit homework2.txt
+ 1510  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 | wc -l
+ 1511  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3
+ 1512  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3-6 | tail -n +2 | sort -k 3
+ 1513  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3-6 | tail -n +2 | sort -k 6
+ 1514  uniq -c Pacifici2013_data.csv | cut -d ";" -f 3 | tail -n +2 | sort -k 3 | wc -l
+ 1515  echo "there are 5426 unique families in Pacifici2013_data.csv" >> homework2.txt
+ 1516  ls
+ 1517  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6 > BodyM.scv
+ 1518  ls
+ 1519* gedit BodyM.csv
+ 1520  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 5-6 | tr -s ';' ' ' | sort -r -n -k 6 > test2.cvs
+ 1521  ls
+ 1522  gedit test2.cvs
+ 1523  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6
+ 1524  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 5-6 | tr -s ';' ' ' | sort -r -n -k 6
+ 1525  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6
+ 1526  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 5-6 | tr -s ';' ' ' | sort -r -n -k 6
+ 1527  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 1-6 | tr -s ';' ' ' | sort -r -n -k 6
+ 1528  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 6 | tr -s ';' ' ' | sort -r -n -k 6
+ 1529  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 5-6 | tr -s ';' ' ' | sort -r -n
+ 1530  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 6 | tr -s ';' ' ' | sort -r -n
+ 1531  ls
+ 1532  wc -l BodyM.scv
+ 1533  grep Vombatidae BodyM.scv
+ 1534  grep -c Vombatidae BodyM.scv
+ 1535  grep -c Bos BodyM.scv
+ 1536  grep Bos BodyM.scv
+ 1537  grep -w Bos BodyM.scv
+ 1538  ls
+ 1539  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 6 | tr -s ';' ' ' | sort -r -n -k 6
+ 1540  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6
+ 1541  history 1 >> homework2.txt
+ 1542  gedit homework2.txt
+ 1543  history
+ 1544  history 7
+ 1545  history 8 >> homework2.txt
+ 1546  gedit homework2.txt
+ 1547  wc -l BodyM.scv
+ 1548  grep Vombatidae BodyM.scv
+ 1549  grep -c Vombatidae BodyM.scv
+ 1550  grep Bos BodyM.scv
+ 1551  grep -c Bos BodyM.scv
+ 1552  grep -w Bos BodyM.scv
+ 1553  grep -i Bos BodyM.scv
+ 1554  grep -c -i Bos BodyM.scv
+ 1555  grep "Gorilla gorilla" BodyM.scv
+ 1556  grep -B2 -A2 "Gorilla gorilla" BodyM.scv
+ 1557  ls
+ 1558  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 5-6 | tr -s ';' ' ' | sort -r -n -k 6 > test2.csv
+ 1559  ls
+ 1560  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6 > BodyM.csv
+ 1561  ls
+ 1562  rm BodyM.scv test2.cvs
+ 1563  ls
+ 1564  ls -la
+ 1565  gedit test.cvs
+ 1566  grep -B2 -A2 "Gorilla gorilla" BodyM.scv
+ 1567  ls
+ 1568  grep -B2 -A2 "Gorilla gorilla" BodyM.csv
+ 1569  tail -n +2 Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6
+ 1570  grep -n "Gorilla gorilla" BodyM.csv
+ 1571  grep -n BodyM.csv
+ 1572  grep -n 164 BodyM.csv
+ 1573  grep -n "Gorilla gorilla" BodyM.csv
+ 1574  grep Gorilla BodyM.csv | grep -v gorilla
+ 1575  grep -w "Gorilla\|Pan" BodyM.csv
+ 1576  cd ~/CSB/unix
+ 1577  cd
+ 1578  cd Desktop
+ 1579  ls
+ 1580  cd eeb-177
+ 1581  ls
+ 1582  cd CSB/unix
+ 1583  grep -r "Gorilla" data/
+ 1584  ls
+ 1585  cd data
+ 1586  ls
+ 1587  history
+ 1588  history 43 >> homework2.txt
+ 1589  gedit homework2.txt
+ 1590  ls
+ 1591  cd ../
+ 1592  ls
+ 1593  cd sandbox
+ 1594  ls
+ 1595  wc -c Marra2014_data.fasta ../data/
+ 1596  cd ../
+ 1597  ls
+ 1598  cd data
+ 1599  ls
+ 1600  wc -c Marra2014_data.fasta
+ 1601  cp Marra2014_data.fasta my_file.fasta ../sandbox
+ 1602  cp /data/Marra2014_data.fasta ../sandbox/my_file.fasta
+ 1603  cp Marra2014_data.fasta ../sandbox/my_file.fasta
+ 1604  cd ../
+ 1605  ls
+ 1606  cd sandbox
+ 1607  ls
+ 1608  cp ../data/Marra2014_data.fasta my_file2.fasta
+ 1609  ls
+ 1610  rm my_files2.fasta
+ 1611  rm my_file2.fasta
+ 1612  ls
+ 1613  less my_file.fasta
+ 1614  wc -c "isogroup0036"
+ 1615  wc -c isogroup0036
+ 1616  grep -c isogroup0036
+ 1617  grep isogroup0036 my_file.fasta
+ 1618  grep -c isogroup0036 my_file.fasta
+ 1619  grep isogroup00036 my_file.fasta
+ 1620  grep -c isogroup00036 my_file.fasta
+ 1621  man wc
+ 1622  ls
+ 1623  cd ../
+ 1624  ls
+ 1625  cd data
+ 1626  ls
+ 1627  mv homework2.txt ../sandbox
+ 1628  ls
+ 1629  cd ../
+ 1630  cd sandbox
+ 1631  ls
+ 1632  echo "exercise 1.11 Allesina" >> homework2.txt
+ 1633  echo "Answer #1: look at history below" >> homework2.txt
+ 1634  echo "Answer #2: the size of Marra2014.fasta is 566026 byte" >> homework2.txt
+ 1635  ls
+ 1636  echo "Answer #3: look at history below" >> homework2.txt
+ 1637  echo "there are 16 contigs classified as isogroup00036" >> homework2.txt
+ 1638  tr ' ' ',' my_file.fasta
+ 1639  tr -s ' ' ',' my_file.fasta
+ 1640  grep isogroup00036 my_file.fasta
+ 1641  grep isogroup00036 my_file.fasta | tr -s ' ' ','
+ 1642  echo "Answer #5: look at history below" >> homework2.txt
+ 1643  grep -c isogroup00036 my_file.fasta | uniq
+ 1644  grep -c isogroup00036 my_file.fasta | sort | uniq
+ 1645  grep isogroup00036 my_file.fasta | sort | uniq
+ 1646  grep my_file.fasta | sort | uniq
+ 1647  grep isogroup my_file.fasta | sort | uniq
+ 1648  grep -c isogroup my_file.fasta | sort | uniq
+ 1649  echo "Answer #6: There are 955 unique isogroup in my_file.fasta" >> homework2.txt
+ 1650  numreads my_file.fasta | sort -n -r
+ 1651  numreads man
+ 1652  numread man
+ 1653  grep isogroup my_file.fasta | sort -n -r
+ 1654  grep isogroup my_file.fasta | cut -f 3 | sort -n -r -k3
+ 1655  grep isogroup my_file.fasta | cut -f 3
+ 1656  cut isogroup my_file.fasta -d " " -f 3
+ 1657  grep isogroup my_file.fasta | cut -f 3
+ 1658  sort -n -k3 isogroup my_file.fasta
+ 1659  man sort
+ 1660  sort -n -k3  my_file.fasta
+ 1661  sort -n -k3  my_file.fasta | wc -c
+ 1662  sort -n -k3  my_file.fasta | wc -l
+ 1663  sort -n -k3  my_file.fasta | grep -c
+ 1664  grep man
+ 1665  man grep
+ 1666  grep -c  my_file.fasta | sort -n -k3
+ 1667  grep -c numreads  my_file.fasta | sort -n -k3
+ 1668  grep  numreads  my_file.fasta | sort -n -k3
+ 1669  grep numreads my_file.fasta
+ 1670  grep -c numreads my_file.fasta
+ 1671  grep numreads my_file.fasta | sort -n -r
+ 1672  grep numreads my_file.fasta | cut -f3 | sort -n
+ 1673  grep numreads my_file.fasta
+ 1674  grep -c numreads my_file.fasta
+ 1675  gedit homework2.txt
+ 1676  echo "Answer #7: I don't have any idea since I forgot what command shoud be typed" >> homework2.txt
+ 1677  grep numreads my_file.fasta | cut -d " " -f3
+ 1678  grep numreads my_file.fasta | cut -d " " -f4
+ 1679  grep numreads my_file.fasta | cut -d " " -f1
+ 1680  grep numreads my_file.fasta | cut -d " " -f 1-5
+ 1681  grep numreads my_file.fasta | cut -d " " -f 5
+ 1682  grep numreads my_file.fasta | cut -d " " -f 5 | sort -n
+ 1683  grep numreads my_file.fasta | cut -d " " -f 1-5 | sort -n
+ 1684  grep numreads=995 my_file.fasta | cut -d " " -f 1-5
+ 1685  grep numreads=995 my_file.fasta
+ 1686  echo "Answer #7: the contig, which has the highest number of reads is contig00329. it has 955 reads" >> homework2.txt
+ 1687  history
+ 1688  gedit homework2.txt
+ 1689  history 105 >> homework2.txt
+ 1690  gedit homework2.txt
+ 1691  cd ../../../
+ 1692  ls
+ 1693  cd homework
+ 1694  cd home-work
+ 1695  ls
+ 1696  mkdir homework2
+ 1697  ls
+ 1698  git init
+ 1699  cd ../
+ 1700  ls
+ 1701  cd CSB
+ 1702  ls
+ 1703  cd unix
+ 1704  ls
+ 1705  cd data
+ 1706  ls
+ 1707  mv BodyM.csv test.cvs test2.csv ../../../home-work
+ 1708  ls
+ 1709  cd ../../../home-work
+ 1710  ls
+ 1711  cd ../
+ 1712  ls
+ 1713  cd CSB
+ 1714  ls
+ 1715  cd unix
+ 1716  ls
+ 1717  cd sandbox
+ 1718  ls
+ 1719  mv homework2.txt my_file.fasta ../../../home-work
+ 1720  cd ../../../home-work
+ 1721  ls
+ 1722  mv BodyM.csv homework2.txt my_file.fasta test2.csv test.cvs /homework2
+ 1723  mv BodyM.csv homework2.txt my_file.fasta test2.csv test.cvs ../homework2
+ 1724  mv BodyM.csv homework2.txt my_file.fasta test2.csv test.cvs ../home-work/homework2
+ 1725  cd ../
+ 1726  ls
+ 1727  cd homework
+ 1728  cd home-work
+ 1729  ls
+ 1730  git init
+ 1731  git add homework2
+ 1732  git commit -m "initial commit: adding homework2 dir"
+ 1733  git push
+ 1734  ls
+ 1735  cd ..
+ 1736  ls
+ 1737  cd CSB
+ 1738  ls
+ 1739  cd unix
+ 1740  ls
+ 1741  cd data
+ 1742  ls
+ 1743  find .
+ 1744  man find
+ 1745  find . -type d
+ 1746  ls
+ 1747  ls -a
+ 1748  find . -type f
+ 1749  find . -name .txt
+ 1750  find . -name *.txt
+ 1751  ls
+ 1752  ls -a
+ 1753  find . -type f
+ 1754  ls
+ 1755  find . -name *.txt
+ 1756  find . -nama *.txt
+ 1757  find . -name *.txt
+ 1758  find . -name '*.txt'
+ 1759  wc -l (find . -name '*.txt')
+ 1760  wc -l $(find . -name '*.txt')
+ 1761  wc -l ./Buzzard2015_about.txt
+ 1762  ls
+ 1763  lessBuzzard2015_about.txt
+ 1764  less Buzzard2015_about.txt
+ 1765  grep "the" $(find -name '*.txt')
+ 1766  history
+ 1767  cd ../../../
+ 1768  cd home-work
+ 1769  ls
+ 1770  history 580 >> histHW2.txt
