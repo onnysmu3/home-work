@@ -5599,3 +5599,28 @@ Answer #7: the contig, which has the highest number of reads is contig00329. it 
  1687  history
  1688  gedit homework2.txt
  1689  history 105 >> homework2.txt
+ 1318  ls
+ 1319  cd saavedra2013
+ 1320  cd Saavedra2013
+ 1321  ls
+ 1322  for filename *.txt
+ 1323  for filename in *.txt; do cp $filename edited-$filename; mv edited-$filename ../../sandbox/temp; done
+ 1324  ls
+ 1325  cd ..
+ 1326  ls
+ 1327  cd sandbox
+ 1328  ls
+ 1329  cd temp
+ 1330  ls
+ 1331  cd ../../../
+ 1332  cd ..
+ 1333  ls
+ 1334  home-work
+ 1335  cd home-work
+ 1336  ls
+ 1337  history
+ 1338  ls
+ 1339  cd home-work
+ 1340  cd homework2
+ 1341  ls
+ 1342  history 25 >> homework2.txt
