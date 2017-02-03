@@ -1,0 +1,335 @@
+ 1845  ls
+ 1846  cd home-work/
+ 1847  ls
+ 1848  cd homework3
+ 1849  ls
+ 1850  cd ../.././/
+ 1851  ls
+ 1852  cd CSB
+ 1853  ls
+ 1854  cd unix
+ 1855  ls
+ 1856  cd data
+ 1857  ls
+ 1858  less Gesquiere2011_data.csv
+ 1859  grep -n 3 less Gesquiere2011_data.csv | wc -l
+ 1860  grep -n 3 less Gesquiere2011_data.csv
+ 1861  grep -w 3 less Gesquiere2011_data.csv
+ 1862  grep -w 3 less Gesquiere2011_data.csv | cut -d "\t" -f 1
+ 1863  grep -w 3 less Gesquiere2011_data.csv | cut -f 1
+ 1864  grep -n 3 less Gesquiere2011_data.csv | cut -f 1
+ 1865  grep -n 3 less Gesquiere2011_data.csv | cut -d ":" -f 1
+ 1866  grep -n 3 less Gesquiere2011_data.csv | cut -d ":" -f 3
+ 1867  ls
+ 1868  gedit Gesquiere2011_data.csv
+ 1869  ls
+ 1870  grep -n 3 Gesquiere2011_data.csv | sort -n 3 -k 1
+ 1871  grep -n 3 Gesquiere2011_data.csv
+ 1872  grep -n 3 Gesquiere2011_data.csv | cut -d ":" -f 3 | sort -n 3 -k 1
+ 1873  grep -n 3 Gesquiere2011_data.csv | cut -d ":" -f 3 | sort -k 1
+ 1874  grep -n 3 Gesquiere2011_data.csv | 
+ 1875  grep -n 3 Gesquiere2011_data.csv | cut -d ":" -f 3
+ 1876  grep -n 3 Gesquiere2011_data.csv | cut -d ":" -f 2
+ 1877  grep -n 3 Gesquiere2011_data.csv | cut -d ":" -f 2 | sort -k 1
+ 1878  grep -w 3 Gesquiere2011_data.csv | cut -d ":" -f 2 | sort -k 1
+ 1879  grep -w 3 Gesquiere2011_data.csv | sort -k 1
+ 1880  grep -w 3 Gesquiere2011_data.csv
+ 1881  grep -w 3 Gesquiere2011_data.csv | sort -k 1
+ 1882  grep -w 3 Gesquiere2011_data.csv | sort -k 2
+ 1883  grep -w 3 Gesquiere2011_data.csv | cut -f 1
+ 1884  grep -w 3 Gesquiere2011_data.csv | cut -f 1 | wc -l
+ 1885  cut -f 1 Gesquiere2011_data.csv | grep -w 3
+ 1886  cut -f 1 Gesquiere2011_data.csv | grep -w 3 | wc -l
+ 1887  touch homework3.sh
+ 1888  gedit homework3.sh
+ 1889  ls
+ 1890  rm homework3.sh
+ 1891  ls
+ 1892  touch test.sh
+ 1893  gedit test.sh
+ 1894  bash test.sh
+ 1895  gedit test.sh
+ 1896  ls
+ 1897  gedit test.sh
+ 1898  bash test.sh
+ 1899  gedit test.sh
+ 1900  bash test.sh
+ 1901  ls
+ 1902  less BodyM.csv
+ 1903  touch test2.sh
+ 1904  gedit test1.sh
+ 1905  ls
+ 1906  gedit test.sh
+ 1907  gedit test2.sh
+ 1908  bash test2.sh .csv
+ 1909  ls
+ 1910  bash test2.sh Pacifici2013_data.csv BodyM2.csv
+ 1911  bash test2.sh ../data/Pacifici2013_data.csv BodyM2.csv
+ 1912  gedit test2.sh
+ 1913  bash test2.sh Pacifici2013_data.csv BodyM2.csv
+ 1914  gedit test2.sh
+ 1915  bash test2.sh ../data/Pacifici2013_data.csv BodyM2.csv
+ 1916  gedit test2.sh
+ 1917  bash test2.sh ../data/Pacifici2013_data.csv BodyM2.csv
+ 1918  ls
+ 1919  ls -la
+ 1920  chmod +rx test2.sh
+ 1921  ls -la
+ 1922  ls
+ 1923  less Gesquiere2011_data.csv
+ 1924  head -n5 Gesquiere2011_data.csv
+ 1925  grep -w 3 Gesquiere2011_data.csv
+ 1926  grep -n 3 less Gesquiere2011_data.csv | wc -l
+ 1927  grep -n 3 Gesquiere2011_data.csv | sort -n 3 -k 1
+ 1928  grep -n 3 Gesquiere2011_data.csv | cut -d ":" -f 3 | sort -n 3 -k 1
+ 1929  grep -n 3 less Gesquiere2011_data.csv
+ 1930  less Gesquiere2011_data.csv | sort -k 1-3
+ 1931  less Gesquiere2011_data.csv | cut -f 1-3
+ 1932  grep less Gesquiere2011_data.csv
+ 1933  ls
+ 1934  less Gesquiere2011_data.csv | grep -w *.csv
+ 1935  grep -n 3 less Gesquiere2011_data.csv
+ 1936  grep -w *cvs less Gesquiere2011_data.csv
+ 1937  grep -w *.csv less Gesquiere2011_data.csv
+ 1938  grep -w csv less Gesquiere2011_data.csv
+ 1939  cut -f 1 Gesquiere2011_data.csv
+ 1940  gedit test2.sh
+ 1941  ls
+ 1942  gedit homework3.sh
+ 1943  ls
+ 1944  gedit homework3.sh
+ 1945  cut -f 1 Gesquiere2011_data.csv
+ 1946  gedit homework3.sh
+ 1947  ls
+ 1948  bash homework3.sh
+ 1949  ls
+ 1950  gedit result.txt 
+ 1951  ls
+ 1952  ls -la
+ 1953  ls
+ 1954  mv BodyM2.csv BodyM.csv homework3.sh result.txt test2.sh test.sh ../../../home-work/homework3
+ 1955  cd ../../../home-work/homework3
+ 1956  ls
+ 1957  cd ..
+ 1958  git init
+ 1959  git add homework3
+ 1960  git commit -m "recommit: readding homework3 dir"
+ 1961  git push
+ 1962  cd ../CSB
+ 1963  ls
+ 1964  cd unix
+ 1965  ls
+ 1966  cd data
+ 1967  ls
+ 1968  cd Saavedra2013
+ 1969  ls
+ 1970  gedit n10.txt
+ 1971  ls
+ 1972  touch netsize.sh
+ 1973  gedit netsize.sh
+ 1974  ls
+ 1975  gedit n10.txt
+ 1976  wc man
+ 1977  man wc
+ 1978  gedit netsize.sh
+ 1979  ls
+ 1980  gedit n10.txt
+ 1981  wc -l n10.txt
+ 1982  gedit netsize.sh
+ 1983  ls -n n10.txt
+ 1984  gedit netsize.sh
+ 1985  gedit n10.txt
+ 1986  gedit netsize.sh
+ 1987  ls
+ 1988  bash netsize.sh
+ 1989  gedit netsize.sh
+ 1990  bash netsize.sh
+ 1991  ls
+ 1992  gedit netsize.sh
+ 1993  bash netsize.sh
+ 1994  ls
+ 1995  les homework3-netsize-script.txt
+ 1996  less homework3-netsize-script.txt
+ 1997  history
+ 1998  cd Desktop/eeb-177/CSB/unix/data/Saavedra2013/
+ 1999  ls
+ 2000  mv homework3-netsize-script.txt netsize.sh ../../../../home-work/homework3
+ 2001  cd ../../../../home-work/homework3
+ 2002  ls
+ 2003  cd ..
+ 2004  git add homework3
+ 2005  homework3
+ 2006  cd homework3
+ 2007  ls
+ 2008  gedit NotesForHW3.txt
+ 2009  ls
+ 2010  gedit NotesForHW3.txt
+ 2011  ls
+ 2012  less week-3-hw-eeb174.txt
+ 2013  less result.txt
+ 2014  mkdir personal-exercise
+ 2015  ls
+ 2016  mv BodyM2.csv BodyM.csv test2.sh test.sh week-3-hw-eeb174.txt ../homework3/personal-exercise
+ 2017  ls
+ 2018  gedit homework3.sh
+ 2019  ls
+ 2020  cd personal-exercise/
+ 2021  ls
+ 2022  cd ..
+ 2023  gedit question#1.txt
+ 2024  history
+ 2025  cd ../../
+ 2026  ld
+ 2027  ls
+ 2028  cd CSB
+ 2029  ls
+ 2030  cd unix
+ 2031  ls
+ 2032  cd data
+ 2033  ls
+ 2034  cut -f 1 Gesquiere2011_data.csv | grep -w 3 | wc -l
+ 2035  cut -f 1 Gesquiere2011_data.csv | grep -w 27 | wc -l
+ 2036  cd ../../../
+ 2037  cd home-work
+ 2038  cd homework3
+ 2039  ls
+ 2040  gedit question#1.txt 
+ 2041  ls
+ 2042  mv question#1.txt ../../CSB/unix/data
+ 2043  cd ../../CSB/unix/data
+ 2044  ls
+ 2045  cut -f 1 Gesquiere2011_data.csv | grep -w 3 | wc -l >> question#1.txt 
+ 2046  cut -f 1 Gesquiere2011_data.csv | grep -w 27 | wc -l >> question#1.txt
+ 2047  echo "individual 3 is sampled 61 times" >> question#1.txt 
+ 2048  echo "individual 27 is sampled 5 times" >> question#1.txt 
+ 2049  gedit question#1.txt 
+ 2050  ls
+ 2051  mv question#1.txt ../../../home-work/homework3
+ 2052  ls
+ 2053  gedit Gesquiere2011_data.csv
+ 2054  ls
+ 2055  for file in Gesquiere2011_data.csv:; do cut -f 1 Gesquiere2011_data.csv | grep -w 3 | wc -l > question#3.txt; cut -f 1 Gesquiere2011_data.csv | grep -w 27 | wc -l >> question#3.txt; done
+ 2056  ls
+ 2057  gedit question#3.txt 
+ 2058  ls
+ 2059  gedit question#3.sh
+ 2060  gedit question#3.txt 
+ 2061  gedit question#3.sh
+ 2062  ls
+ 2063  bash question#3.sh
+ 2064  ls
+ 2065  gedit ans-quest#3.txt
+ 2066  ls
+ 2067  mv question#3.sh question#3.txt ans-quest#3.txt ../../../home-work/homework3
+ 2068  cd ../../../home-work/homework3
+ 2069  ls
+ 2070  mkdir question#1
+ 2071  ls
+ 2072  rmdir question#1
+ 2073  ls
+ 2074  mkdir 1112-#1
+ 2075  ls
+ 2076  mkdir 1112-#2
+ 2077  mkdir 1112-#3
+ 2078  ls
+ 2079  less question#1.txt
+ 2080  mv question#1.txt ../1112-#1
+ 2081  ls
+ 2082  gedit homework3.sh
+ 2083  ls
+ 2084* mv homework3.sh ../1112-#2
+ 2085  ls
+ 2086  mv question#3.sh ans-quest#3.txt ../1112-#3
+ 2087  ls
+ 2088  mv question#3.sh ans-quest#3.txt ../1112-#3
+ 2089  ls
+ 2090  cd 1112-#3
+ 2091  ld
+ 2092  ls
+ 2093  cd ..
+ 2094  ls
+ 2095  rmdir 1112-#3
+ 2096  ls
+ 2097  mkdir 1112-#3
+ 2098  ls
+ 2099  mv question#3.sh ans-quest#3.txt ../homework3/1112-#3
+ 2100  ls
+ 2101  cd ..
+ 2102  ls
+ 2103  gedit 1112-#1
+ 2104  ls
+ 2105  gedit 1112-#2
+ 2106  homework3
+ 2107  ls
+ 2108  homework3
+ 2109  cd homework3
+ 2110  ls
+ 2111  cd 1112-#3
+ 2112  ls
+ 2113  cd ..
+ 2114  ls
+ 2115  cd 1112-#2
+ 2116  ls
+ 2117  gedit question#2.sh
+ 2118  ls
+ 2119  bash question#2.sh
+ 2120  mv question#2.sh ../../../CSB/unix/data
+ 2121  cd ../../../CSB/unix/data
+ 2122  ls
+ 2123  bash question#2.sh
+ 2124  ls
+ 2125  mv result.txt question#2.sh ../../../home-work/homework3/1112-#2
+ 2126  cd ../../../home-work/homework3/1112-#2
+ 2127  ls
+ 2128  cd ..
+ 2129  ls
+ 2130  cd 1112-#1
+ 2131  ls
+ 2132  cd ..
+ 2133  ls
+ 2134  gedit result.txt
+ 2135  ls
+ 2136  rm result.txt
+ 2137  ls
+ 2138  cd ..
+ 2139  ls
+ 2140  gedit 1112-#1
+ 2141  ls
+ 2142  cd homework3
+ 2143  ls
+ 2144  history
+ 2145  cd ../../CSB/unix/data
+ 2146  ls
+ 2147  cut -f 1 Gesquiere2011_data.csv | grep -w 3 | wc -l > question#1.txt
+ 2148  cut -f 1 Gesquiere2011_data.csv | grep -w 27 | wc -l >> question#1.txt
+ 2149  echo "individual 3 is sampled 61 times" >> question#1.txt
+ 2150  echo "individual 27 is sampled 5 times" >> question#1.txt
+ 2151  gedit question#1.txt
+ 2152  ls
+ 2153  mv question#1.txt ../../../home-work/homework3/1112-#1
+ 2154  ../../../home-work/homework3/1112-#1
+ 2155  cd ../../../home-work/homework3/1112-#1
+ 2156  ls
+ 2157  cd ..
+ 2158  ls
+ 2159  cd 1112-#3
+ 2160  ls
+ 2161  cd ..
+ 2162  ls
+ 2163  gedit question#3.txt
+ 2164  ls
+ 2165  mv question#3.txt ../homework3/personal-exercise
+ 2166  ls
+ 2167  mkdir 1113-#1
+ 2168  ls
+ 2169  mv netsize.sh homework3-netsize-script.txt ../homework3/1113-#1
+ 2170  ls
+ 2171  gedit NotesForHW3.txt
+ 2172  ls
+ 2173  cd ..
+ 2174  git add homework3
+ 2175  git commit -m "recommit: readding some sub-directories and a file"
+ 2176  git push
+ 2177  history
+ 2178  cd homework3
+ 2179  history 335 > histHW3.txt
