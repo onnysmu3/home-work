@@ -1,0 +1,4 @@
+61
+5
+individual 3 is sampled 61 times
+individual 27 is sampled 5 times

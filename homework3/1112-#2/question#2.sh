@@ -8,4 +8,3 @@ wc -l Gesquiere2011_data.tmp1 > result.txt
 
 #remove temporary, intermediate files
 rm Gesquiere2011_data.tmp*
-

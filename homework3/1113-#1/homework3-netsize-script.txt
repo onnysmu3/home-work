@@ -1,0 +1,4 @@
+14 /home/eeb177-student/Desktop/eeb-177/CSB/unix/data/Saavedra2013/n10.txt
+Filename: ../data/Saavedra2013/n10.txt
+Number of rows: 14
+Number of column: 20

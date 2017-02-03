@@ -1,0 +1,6 @@
+This is some notes regarding the homework3
+1. 1112-#1 is the name of directory which contains the answer of 1.11.2, question #1, of Allesina book
+
+2. question: if wc -l is a command to count how many lines in a file, what command is to count how many columns in a file?
+
+3. what command should be made to answer exercise 1.11.2 question #2 in Allesina book?
