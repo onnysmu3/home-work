@@ -1,0 +1,7 @@
+#1. There are 195 families in this file.
+
+cut -d , -f 3 formatted_nature21074-f1.csv | tail -n+3 | sort | uniq | wc -l
+
+#2. Trochilida is has the most species represented, which is 102 species.
+#3. there are 61 families, which have only a single species in them
+cut -d , -f 3 formatted_nature21074-f1.csv | tail -n+3 | sort | uniq -c | grep -w 1 |wc -l
